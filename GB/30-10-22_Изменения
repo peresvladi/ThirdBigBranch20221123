@@ -1,0 +1,39 @@
+Было до git add .
+
+/ChTask
+ChTask5
+Exampl007_Magic
+Example001_HelloConsole
+Example002_HelloUser
+Example003_Sum
+Example004_Div
+Example005_ConlditionIfElse
+Example006_Base
+Example008_introM
+Lesson2
+Lesson3
+Lesson4
+S4
+S6
+S6.1
+SeminarsCh
+S3
+S4
+S1.1
+S7.1
+S8
+TEST
+
+После git add .
+
+../Draw/
+        ../Lesson3/AbstractA.md
+        ../Lesson3/AbstractQ.md
+        ../SeminarsCh/.vscode/
+        ../SeminarsCh/1.md
+        ../SeminarsCh/S1.1/
+        ../SeminarsCh/S3.md
+        ../SeminarsCh/S4/.vscode/
+        ../SeminarsCh/S7.1/
+        ../SeminarsCh/S8/
+        ../TEST/
