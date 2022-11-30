@@ -1,24 +1,8 @@
-""" x1 = int (input('Введите значение х1 = '))
+x1 = int (input('Введите значение х1 = '))
 y1 = int (input('Введите значение y1 = '))
 x2 = int (input('Введите значение х2 = '))
-y2 = int (input('Введите значение y2 = ')) """
-
-x1 = int(-1)
-y1 = int(1)
-x2 = int(-3)
-y2 = int(3)
-
-
-print((abs(abs(x1)-abs(x2))))
-print((abs(abs(y1) - abs(y2))))
-print((abs(abs(x1)-abs(x2)))**2)
-print((abs(abs(y1) - abs(y2)))**2)
-x=float(((abs(abs(x1)-abs(x2)))**2 + (abs(abs(y1) - abs(y2)))**2))
-print(x)
-# print()
-# print()
-print(x ** 0,5)
-# print(((abs(abs(x1)-abs(x2)))**2 + (abs(abs(y1) - abs(y2)))**2))** (0,5)
+y2 = int (input('Введите значение y2 = '))
+print(float(((abs(abs(x1)-abs(x2)))**2 + (abs(abs(y1) - abs(y2)))**2))**0.5)
 
 
 
