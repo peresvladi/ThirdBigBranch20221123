@@ -1,0 +1,4 @@
+
+with open("/home/vladi/Education/GB/Python/HelloyPython/my/n_a_m", "a") as data:
+    data.write("\n*\n")
+    data.write("*\n")

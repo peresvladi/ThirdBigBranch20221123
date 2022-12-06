@@ -1,0 +1,4 @@
+
+print((' {2} заполнитель {1} + {0}'.format(temp1,temp4[0],temp4)))
+
+print((f'{temp1} заполнитель {temp2} {temp3}'))

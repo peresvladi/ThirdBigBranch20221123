@@ -1,0 +1,4 @@
+
+i = ord('n')
+print(i)
+print(chr(i))

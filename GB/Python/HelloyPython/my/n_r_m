@@ -1,0 +1,6 @@
+
+path = '/home/vladi/Education/GB/Python/HelloyPython/my/n_a'
+data = open(path,'r')
+for line in data:
+    print(line)
+data.close()
