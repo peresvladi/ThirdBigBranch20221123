@@ -2,21 +2,39 @@
 
 
 
+    
+    
+
+""" path = '/home/vladi/Education/GB/Python/HelloyPython/n_a'
+data = open(path,'r')
+for line in data:
+    print(line)
+data.close() """
+
+with open("/home/vladi/Education/GB/Python/HelloyPython/my/flips_a_number_m", "a") as data:
+    data.write("\original = 23\n")
+    data.write("inverted = 0\n")
+    data.write("while original !=0:\n")
+    data.write("inverted = inverted * 10 + (original%10)\n")
+    data.write("original = original // 10")
+    
 
 
 
 
 
 
+   
 
 
 
+    
 
 
 
-
-
-
+ 
+        
+ 
 
 
 
