@@ -1,4 +1,4 @@
 
-i = ord('n')
+i = ord(',')
 print(i)
 print(chr(i))

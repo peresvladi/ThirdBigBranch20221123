@@ -1,0 +1,6 @@
+lst = [20, 6, 11, 2, 10, 12]
+maxx=0
+for i in lst:
+    if maxx < i:
+     maxx = i
+print(f'{lst} max >>> {maxx}')
