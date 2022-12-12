@@ -15,20 +15,21 @@
 # print(file.f(num*-1, num+1))
 
 
-lst=[0]
-def ran():
- lst.append(lst[-1]+1)
- a=str(id(lst[-1]))
- num = 0
- for i in (a):
-    num = int(i)
-    n=(str(num)[1])
-    n=int(n)
-    return(n)
-#calling the ran()function gives you 10 random numbers.
-for i in range(10):
-    print(ran())
+# l
+lst = []
+count = 0
+def control(x = 0, y = 0):
+    rng = range(x,y)
+    if x < y:
+       count = y - x
+    else:
+        count = x - y
+    lst = list(rng)
+    for i in lst:
+           
+        return lst[i]
 
+print(control(0,6))
 
 
 
