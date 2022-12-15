@@ -33,7 +33,7 @@ def ccontrole(m_n, m_x, c_t):
     return result 
     
 count = 3
-max = 15
+max = 3
 min = 0
 print (ccontrole (min, max, count))
 
