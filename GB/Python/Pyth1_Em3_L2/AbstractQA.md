@@ -565,15 +565,44 @@ print(ch)            # вывели символ, следующий за дол
 
 ``` 
 
-</details>. )  . . .
+</details>
+
+. ) Измерить время исполнения кода программы (прога)
 
 <details>
 
 <summary></summary>
 
 ```javascript
+# importing the required module
+# (импортируем необходимый модуль)
+import timeit
 
-. . .
+# code snippet to be executed only once 
+# (фрагмент кода, который будет выполнен только один раз)
+# before the stmt parameter in timeit
+# (перед параметром stmt в timeit)
+mysetup = "from math import sqrt"
+
+# code snippet whose execution time
+# (фрагмент кода, время выполнения которого)
+# is to be measured
+# (должен быть измерен)
+mycode = '''
+def example():
+    mylist = []
+    for x in range(100):
+        mylist.append(sqrt(x))
+'''
+
+# timeit statement
+# (выписка о времени)
+exec_time = timeit.timeit(stmt=mycode,
+						setup=mysetup,
+						number=1000000) * 10**3
+print(f"The time of execution of above program is : {exec_time:.03f}ms")
+
+
 
 ``` 
 
