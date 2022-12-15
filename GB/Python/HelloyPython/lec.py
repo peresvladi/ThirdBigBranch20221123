@@ -1,6 +1,6 @@
 
 
-def collector(x,y,c):
+def collector(x, y, c):
  m=""
  h = y
  b1=casual(h)
@@ -17,11 +17,13 @@ def casual(h):
     b=b[3:len(b)] # значение первых трех элементов исключаем т.к. их значения при вызовах id существенно не обнавляются
     if h < 10:
         b
+        print(f'type : b {type(b)}')
     elif 9 < h < 100:
-        for j in b,2:
-            d=d + [b[s]+b[s+1]]
+        for j in b:
+            d=d + [b[s-1]+j]
             s=s+1
-        b=[b+d]    
+        b=b+d
+        print(f'type : b {type(b)}')
     return b
 
 def ccontrole(m_n, m_x, c_t):
@@ -33,7 +35,7 @@ def ccontrole(m_n, m_x, c_t):
     return result 
     
 count = 3
-max = 15
+max = 14
 min = 0
 print (ccontrole (min, max, count))
 
