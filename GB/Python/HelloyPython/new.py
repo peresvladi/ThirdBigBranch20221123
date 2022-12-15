@@ -1,13 +1,15 @@
-lst=[0]
-def ran():
- lst.append(lst[-1]+1)
- a=str(id(lst[-1]))
- num = 0
- for i in (a):
-    num = int(i)
-    n=(str(num)[1])
-    n=int(n)
-    return(n)
-#calling the ran()function gives you 10 random numbers.
-for i in range(10):
-    print(ran())
+
+x=0
+y=0
+c=0
+i = 0
+m = 0
+
+if x <= int(i) <= y and c < 10:
+    m = m + i
+elif x <= int(i) <= y and c < 20:
+    m = m*m + i
+elif x <= int(i) <= y and c < 20:
+    m = m*m + i 
+
+
