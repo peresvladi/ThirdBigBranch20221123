@@ -1,97 +1,32 @@
 
+   
+# 4. Напишите программу. которая будет преобразовывать десятичное число в двоичное.
+#    Пример: 45 101101
+#            3  11
+#            2  10
+           
 
-def collector(x, y, c):
- m=""
- h = y
- b1=casual(h)
- for i in b1:
-    if x <= int(i) <= y:
-        m = m + i
- return m
+# Clear();
+# WriteLine("Введите десятичное число");
+# int tennum = int.Parse(ReadLine());
+# string box2 = string.Empty;
+# while(tennum >=1)   
+# {
+# string box1 = (tennum % 2).ToString("G");
+# box2 = box1 + " " + box2;
+# tennum = tennum / 2;
+# }
 
-def casual(h):
-    a={}
-    d=[]
-    s=0
-    t=0
-    b=(list(str(id(a))))
-    b=b[3:len(b)] # значение первых трех элементов исключаем т.к. их значения при вызовах id существенно не обнавляются
-    if h < 10:
-        b
+decimal_number = int(input("введите число в десятичном формате: "))
+while decimal_number >= 1:
+    binary_number1=int(decimal_number%2)
+    binary_number2=binary_number1
+    decimal_number=int(decimal_number/2)
+print(decimal_number)
+# 5. Задайте число. Составьте список числе Фибоначи, в том числе для отрицательных индексов.
+# Пример:
 
-    elif 9 < h < 100:
-        for j in b:
-            d = d + [b[s - 1] + j]
-            s = s + 1
-
-        for y in b:
-            d.insert(t, y)
-            t = t + 2
-        b = d
-    return b
-
-def ccontrole(m_n, m_x, c_t):
-    ssum = []
-    result = []
-    while len(ssum) < c_t:
-        ssum = ssum + list(collector(m_n, m_x, c_t))
-        result = ssum[len(ssum) - count : len(ssum)]
-    return result 
-    
-count = 3
-max = 15
-min = 0
-print (ccontrole (min, max, count))
+#     - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21] [Негафибоначчи](https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B3%D0%B0%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8#:~:text=%D0%92%20%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5%2C%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D0%BD%D0%B5%D0%B3%D0%B0%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8%20%E2%80%94%20%D0%BE%D1%82%D1%80%D0%B8%D1%86%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB%20%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8.)
 
 
-
-
-# with open ('/home/vladi/Education/GB/Python/HelloyPython/my/S2/Task/Task2.4', 'a') as data:
-#     data.write('#Задайте список из n элементов  заполненных цифрами из промежутка (-N,N). Найдите произведение элементов на указанных позициях, позиции хранятся в файле file.txt в одной строке одно число\n')
-    
-# num = int(input('Введите число: '))
-# lst = list((range(num*-1, num+1)))
-# # with open ('file.py','w') as data:
-# #     data.write('def f(x,y):\n')
-# #     data.write('    x = x/2\n')
-# #     data.write('    return x\n')
-# #     data.write('    y = y/2\n')
-# #     data.write('    return y\n')
-#
-#
-#     import \ThirdBigBranch20221123\file.py
-# print(file.f(num*-1, num+1))
-
-
-# num = int(input('Введите число: '))
-# lst = list((range(num*-1, num+1)))
-# # with open ('file.py','w') as data:
-# #     data.write('def f(x,y):\n')
-# #     data.write('    x = x/2\n')
-# #     data.write('    return x\n')
-# #     data.write('    y = y/2\n')
-# #     data.write('    return y\n')
-#
-#
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-    # with open ('/home/vladi/Education/GB/Python/HelloyPython/my/S2/Task/Task2.4', 'a') as data:
-    #     data.write('#Реализуйте механизм нахождения(генерации) рандомного (случайного) числа(Не используя библиотеки связанные с рандомом)\n')
-    
+# 	Пример:         

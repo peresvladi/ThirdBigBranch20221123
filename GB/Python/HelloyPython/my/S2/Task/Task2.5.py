@@ -17,4 +17,4 @@ def collector(x_1, x_2):
             r = r * abs(int(i))
     return r
 
-print(f'произведение элементов на указанных позициях составляет :  {collector(x_1 = p.value_pos(num),x_2 = n.value_neg(num))}')
+print(f'произведение элементов на указанных позициях (за исключением "0") составляет :  {collector(x_1 = p.value_pos(num),x_2 = n.value_neg(num))}')
