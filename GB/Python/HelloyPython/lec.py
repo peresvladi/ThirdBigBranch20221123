@@ -1,28 +1,5 @@
 
    
-# 4. Напишите программу. которая будет преобразовывать десятичное число в двоичное.
-#    Пример: 45 101101
-#            3  11
-#            2  10
-           
-
-# Clear();
-# WriteLine("Введите десятичное число");
-# int tennum = int.Parse(ReadLine());
-# string box2 = string.Empty;
-# while(tennum >=1)   
-# {
-# string box1 = (tennum % 2).ToString("G");
-# box2 = box1 + " " + box2;
-# tennum = tennum / 2;
-# }
-
-decimal_number = int(input("введите число в десятичном формате: "))
-while decimal_number >= 1:
-    binary_number1=int(decimal_number%2)
-    binary_number2=binary_number1
-    decimal_number=int(decimal_number/2)
-print(decimal_number)
 # 5. Задайте число. Составьте список числе Фибоначи, в том числе для отрицательных индексов.
 # Пример:
 
