@@ -98,7 +98,17 @@ chmod ugo+x script.py
 
 ```
 </details>
+8 Проверка - является ли элемент числом
 
+<details>
+<summary></summary>
+
+![isbigit.jpg](isbigit.jpg)
+
+```lavascript
+
+```
+</details>
 9. Что необходимо для объявления переменной
 
 <details>
@@ -570,7 +580,7 @@ while original !=0:
 <details>
 <summary></summary>
 
-![Srezu.jgp](Srezu.jgp)
+![Srezu.jpg](Srezu.jpg)
 
 ```lavascript
 
