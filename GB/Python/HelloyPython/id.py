@@ -1,16 +1,34 @@
 
-def collector(x,y,c):
- m=""
- b1=casual(c)
- for i in b1:
-    if x <= int(i) <= y:
-        m = m + i
- return m
+def collector(x, y, c): m=""
+    h = y
+    b1=cas u al(h)
+    for i in b1:
+        if x <= int(i) <= y:
+            m = m + i
+    return m
 
-def casual(c):
+def
+
+
+casual(h):
     a={}
-    b=(list(str(id(a))))
-    b=b[3:len(b)] # значение первых трех элементов исключаем т.к. их значения при вызовах id существенно не обнавляются
+    d=[]
+    s=0
+    b=(l i st(str(id(a))))
+    b=b[ 3 :l
+        en(b)] #   начение первых трех элементов исключаем т.к. их значения при вызовах id существенно не обнавляются
+    if h < 10:
+        b
+
+
+    elif 9 < h < 100:
+
+        for j in b:
+            d = d + [b[s - 1] + j]
+
+            s = s + 1
+
+        b = b + d
     return b
 
 def ccontrole(m_n, m_x, c_t):
@@ -18,13 +36,43 @@ def ccontrole(m_n, m_x, c_t):
     result = []
     while len(ssum) < c_t:
         ssum = ssum + list(collector(m_n, m_x, c_t))
-        result = ssum[len(ssum) - count : len(ssum)]
-    return result 
-    
-count = 3
-max = 3
+        result = ssum[len(ssum) - count :len(ssum)]
+    return result
+
+c
+
+
+nt = 3
+max = 14
 min = 0
-print (ccontrole (min, max, count))
+print (controle (mn, max, count))
+
+# def collector(x,y,c):
+#  m=""
+#  b1=casual(c)
+#  for i in b1:
+#     if x <= int(i) <= y:
+#         m = m + i
+#  return m
+#
+# def casual(c):
+#     a={}
+#     b=(list(str(id(a))))
+#     b=b[3:len(b)] # значение первых трех элементов исключаем т.к. их значения при вызовах id существенно не обнавляются
+#     return b
+#
+# def ccontrole(m_n, m_x, c_t):
+#     ssum = []
+#     result = []
+#     while len(ssum) < c_t:
+#         ssum = ssum + list(collector(m_n, m_x, c_t))
+#         result = ssum[len(ssum) - count : len(ssum)]
+#     return result
+#
+# count = 3
+# max = 3
+# min = 0
+# print (ccontrole (min, max, count))
 
 
 # def casual(x,y,c):
