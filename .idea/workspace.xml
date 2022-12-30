@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3c17c-f9f3-46e5-8185-ade1964eeb52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/GB/Python/HelloyPython/Task3.3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB/Python/HelloyPython/lec.py" beforeDir="false" afterPath="$PROJECT_DIR$/GB/Python/HelloyPython/lec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB/Python/HelloyPython/my/S3/Task/Task3.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/GB/Python/HelloyPython/my/S3/Task/Task3.4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB/Python/HelloyPython/my/S3/Task/Task3.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/GB/Python/HelloyPython/my/S3/Task/Task3.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB/Python/HelloyPython/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/GB/Python/HelloyPython/new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GB/Python/Pyth1_Em1_L1/QAbstract.md" beforeDir="false" afterPath="$PROJECT_DIR$/GB/Python/Pyth1_Em1_L1/QAbstract.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2022_1_34_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_12_2022_1_34__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_12_2022_22_24_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_12_2022_22_24__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GB/Python/HelloyPython/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Peres/PycharmProjects/ ThirdBigBranch20221123",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peres/PycharmProjects/ ThirdBigBranch20221123&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.ChangelistConflict&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name=" ThirdBigBranch20221123" />
