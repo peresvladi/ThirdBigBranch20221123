@@ -110,22 +110,40 @@ while result == numm:
     
     #     s+=str(numm/l[i*-1])
 
+#Task5.3 Реализуйте алгоритм RLE: реализуйте модуль сжатия
+# и восстановления данных
+
+v = input("Введите строку")
 
 
 
-# numm = 40 #int(input('Введите натуральное число'))
 
-# s = ""
-# l = list(range(1,numm))
-# for i in range(1,numm):
-#     if  0==2%(numm/l[i*-1]):
-#         s+=str(numm/l[i*-1])
+def cod(strr):
+    countt=1
+    collr = ''
+    for i in range(len(strr)-1):
+        if strr[i]==strr[i+1]:
+            countt +=1
+        else:
+            collr = collr + str(collr) + strr[i]
+            countt = 1
+    if countt > 1 or (strr[len(strr)-2] != strr[-1]):
+        collr = collr + str(countt)+strr[-1]
+        return collr
 
-# 
-# 
-# if  0==2%(numm/int(lst[i*-1])):
-#     s+=lst[i*-1].split()
-
+def dec(strr):
+    numm = ""
+    collr = ""
+    for j in range(len(strr)):
+        if not strr[j].isalpha():
+            numm += strr[j]
+        else:
+            collr = collr + strr[j] * int(numm)
+            numm = ""
+            return collr
+c = cod(v)
+d = dec(c)
+print(f'кодированная строка:{c} декодированная строка: {d}')
 
 
 # 

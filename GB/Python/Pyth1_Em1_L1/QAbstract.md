@@ -885,15 +885,21 @@ math.e - e = 2,718281...
 
 
 
-..)..
+..)Проверка наличия элемента в списке
 
 <details>
 <summary></summary>
 
 ```lavascript
 
-...
+возможно так (требует проверки путем тестирования):
 
+if '/' in List_sample is True: delenie_ind = List_sample.index('/')
+
+
+где: List_sample - это список,
+
+а: '/' - это элемента наличие которого в списке проверяется
 ```
 </details>
 
