@@ -606,7 +606,10 @@ print(f"The time of execution of above program is : {exec_time:.03f}ms")
 
 ``` 
 
-</details>. )  . . .
+</details>
+
+
+. )  Проверить наличие файла, каталога или корректной ссылки
 
 <details>
 
@@ -614,7 +617,13 @@ print(f"The time of execution of above program is : {exec_time:.03f}ms")
 
 ```javascript
 
-. . .
+Как проверить, существует ли файл или каталог в Python.
+
+Os.path.exists(path) — возвращает true, если path — это файл, каталог или допустимая символическая ссылка.
+
+Os.path.isfile(path) — возвращает истину, если path является обычным файлом или символической ссылкой на файл.
+
+Os.path.isdir(path) — возвращает true, если path является каталогом или символической ссылкой на каталог.
 
 ``` 
 
