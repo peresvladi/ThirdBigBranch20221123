@@ -1,4 +1,8 @@
-def a():
+
+varss = "нет"
+while varss != "нет":
+    
+ def a():
     import n_l_s
     nls = n_l_s.new_line_separator()
     import c_s
@@ -11,3 +15,4 @@ def a():
     return fiot
 import w_t_t_d
 w_t_t_d.writing_to_the_database(a())
+varss = input("Выйти ? Введите - Да, для выхода")
