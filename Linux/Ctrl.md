@@ -48,13 +48,15 @@ sudo snap install pycharm-professional --classic
 
 </details>
 
-..)...
+..)Открыть редактор
 <details>
 <summary></summary>
 
+![konfet.jpg](konfet.jpg)
+
 ```javascript
 
-.....
+
 
 ```
 
